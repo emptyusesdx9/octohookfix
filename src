@@ -2623,8 +2623,7 @@ Items.Outline = Library:Create("Frame", {
     BorderSizePixel = 0;
     AutomaticSize = Enum.AutomaticSize.Y; 
     BackgroundColor3 = themes.preset.inline
-})
-;	Library:Themify(Items.Outline, "inline", "BackgroundColor3")
+});	Library:Themify(Items.Outline, "inline", "BackgroundColor3")
 
                 Library:Create( "UIPadding" , {
                     PaddingBottom = dim(0, 2);
